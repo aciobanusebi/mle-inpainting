@@ -6,6 +6,14 @@ Current approaches involve deep learning in solving an **image inpainting** task
 
 Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix Normal Distribution, PixelCNN
 
+## Others
+
+**Observation**: Be sure that there is a "bugSwap" global variable (optionally set to True) if you use one of my models and that there is no "bugSwap" variable if you train your own. This affects the "Matrix Normal Channels (Faster), k=1" model's results.
+
+**Link to my trained models + 10 test images for CelebA-HQ** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/1Rr0AMwE9jN57EPc8LABRDqaSwDdMjy3d/view?usp=sharing
+
+**Link only to the 10 test images for CelebA-HQ**: https://drive.google.com/file/d/1YzldvLWTaaB_C_ware7vYv2zTvSBL8HW/view?usp=sharing
+
 # Code and demo
 
 ## For mle-inpainting-small-medium.ipynb:
@@ -28,9 +36,3 @@ Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix No
 1. If you want to train a model and save a model to your Google Drive account, go to "Train" and follow the instructions from there.
 
 **2. If you want to inpaint an image, go to "Test" and follow the instructions from there.**
-
-**Observation**: Be sure that there is a "bugSwap" global variable (optionally set to True) if you use one of my models and that there is no "bugSwap" variable if you train your own. This affects the "Matrix Normal Channels (Faster), k=1" model's results.
-
-**Link to my trained models + 10 test images for CelebA-HQ** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/1Rr0AMwE9jN57EPc8LABRDqaSwDdMjy3d/view?usp=sharing
-
-**Link only to the 10 test images for CelebA-HQ**: https://drive.google.com/file/d/1YzldvLWTaaB_C_ware7vYv2zTvSBL8HW/view?usp=sharing
