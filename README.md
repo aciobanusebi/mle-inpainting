@@ -1,6 +1,6 @@
 # Paper abstract
 
-Current approaches involve deep learning in solving an **image inpainting** task. We propose a **meta-algorithm** in which we can set a **probabilistic distribution** on images. The set distribution can be a **classic** one, e.g. **Normal** distribution, or a **modern** one, e.g. **PixelCNN++**. Our **first observation** is relatively unexpected: if a learnt distribution **generates** reasonable images, then this does not make it is a good candidate for **inpainting** via our proposed algorithm and vice-versa (if a learnt distribution gives reasonable results on image inpainting via our algorithm, then this does not make it is a good candidate for sampling a new image). Our **second observation** is that although the visual results of the state-of-the-art method are superior to ours, the training time for our method is lower. Hence, one can experiment faster with our method to see, for example, if the desired inpainting is learnable. Moreover, using a specific distribution, our algorithm **can be trained also on high-quality RGB images, like 1024 times 1024 pixels**. As for the experiments, we included visual results.
+Current approaches involve deep learning in solving an **image inpainting** task. We propose a **meta-algorithm** in which we can set a **probabilistic distribution** on images. The set distribution can be a **classic** one, e.g. **Normal** distribution, or a **modern** one, e.g. **PixelCNN++**. Our **first observation** is relatively unexpected: if a learnt distribution **generates** reasonable images, then this does not make it is a good candidate for **inpainting** via our proposed algorithm and vice-versa (if a learnt distribution gives reasonable results on image inpainting via our algorithm, then this does not make this a good candidate for sampling a new image). Our **second observation** is that although the visual results of the state-of-the-art method are superior to ours, the training time for our method is lower. Hence, one can experiment faster with our method to see, for example, if the desired inpainting is learnable. Moreover, using a specific distribution, our algorithm **can be trained also on high-quality RGB images, like 1024 times 1024 pixels**. As for the experiments, we included visual results and some quantitative comparisons.
 
 # Index words
 
@@ -11,6 +11,8 @@ Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix No
 **Link to my trained models** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/1ZPCSyBjaFV0Xo_onnx1K49MyxJDlbVKn/view?usp=sharing
 
 **Link to testing images for CelebA-HQ 1024x1024** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/11XKSCbFn0rs82xFyl0gtN-pHo3ipZbwc/view?usp=sharing
+
+**The dataset refered to as "CelebA" is actually "CelebA-HQ" (30000 x 1024 x 1024) resized to 30000 x 128 x 128.
 
 # Code and demo
 
