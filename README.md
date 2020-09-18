@@ -8,15 +8,13 @@ Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix No
 
 ## Others
 
-**Observation**: Be sure that there is a "bugSwap" global variable (optionally set to True) if you use one of my models and that there is no "bugSwap" variable if you train your own. This affects the "Matrix Normal Channels (Faster), k=1" model's results.
+**Link to my trained models** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/1ZPCSyBjaFV0Xo_onnx1K49MyxJDlbVKn/view?usp=sharing
 
-**Link to my trained models + 10 test images for CelebA-HQ** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/1Rr0AMwE9jN57EPc8LABRDqaSwDdMjy3d/view?usp=sharing
-
-**Link only to the 10 test images for CelebA-HQ**: https://drive.google.com/file/d/1YzldvLWTaaB_C_ware7vYv2zTvSBL8HW/view?usp=sharing
+**Link to testing images for CelebA-HQ 1024x1024** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/11XKSCbFn0rs82xFyl0gtN-pHo3ipZbwc/view?usp=sharing
 
 # Code and demo
 
-## For mle-inpainting-small-medium.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/mle-inpainting/blob/master/mle_inpainting_small_medium.ipynb)
+## For mle-inpainting-small-medium.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/clean-mle-inpainting/blob/master/mle_inpainting_small_medium.ipynb)
 
 1. **Find and select the cell called "END OF CODE: RUN UP TO NOW (Ctrl + F8)".**
 
@@ -31,7 +29,7 @@ Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix No
 6. **If you want to inpaint an image using a trained model (from my trained models ("web" option for *modelLocation*), from your Google Drive or from memory), go to "Test" and follow the instructions from there.**
 
 
-## For mle-inpainting-large.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/mle-inpainting/blob/master/mle_inpainting_large.ipynb)
+## For mle-inpainting-large.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/clean-mle-inpainting/blob/master/mle_inpainting_large.ipynb)
 
 1. If you want to train a model and save a model to your Google Drive account, go to "Train" and follow the instructions from there.
 
