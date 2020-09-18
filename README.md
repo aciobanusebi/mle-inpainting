@@ -12,7 +12,7 @@ Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix No
 
 **Link to testing images for CelebA-HQ 1024x1024** (the archive is downloaded implicitly when needed if you use the notebook): https://drive.google.com/file/d/11XKSCbFn0rs82xFyl0gtN-pHo3ipZbwc/view?usp=sharing
 
-**The dataset refered to as "CelebA" is actually "CelebA-HQ" (30000 x 1024 x 1024) resized to 30000 x 128 x 128.
+**The dataset referred to as "CelebA" is actually "CelebA-HQ" (30000 x 1024 x 1024) resized to 30000 x 128 x 128.**
 
 # Code and demo
 
