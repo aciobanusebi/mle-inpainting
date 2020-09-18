@@ -14,7 +14,7 @@ Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix No
 
 # Code and demo
 
-## For mle-inpainting-small-medium.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/clean-mle-inpainting/blob/master/mle_inpainting_small_medium.ipynb)
+## For mle-inpainting-small-medium.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/mle-inpainting/blob/master/clean-mle_inpainting_small_medium.ipynb)
 
 1. **Find and select the cell called "END OF CODE: RUN UP TO NOW (Ctrl + F8)".**
 
@@ -29,7 +29,7 @@ Image inpainting, Probabilistic Machine Learning, Normal Distribution, Matrix No
 6. **If you want to inpaint an image using a trained model (from my trained models ("web" option for *modelLocation*), from your Google Drive or from memory), go to "Test" and follow the instructions from there.**
 
 
-## For mle-inpainting-large.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/clean-mle-inpainting/blob/master/mle_inpainting_large.ipynb)
+## For mle-inpainting-large.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aciobanusebi/mle-inpainting/blob/master/clean-mle_inpainting_large.ipynb)
 
 1. If you want to train a model and save a model to your Google Drive account, go to "Train" and follow the instructions from there.
 
