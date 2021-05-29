@@ -1,3 +1,7 @@
+# Semantic Image Inpainting via Maximum Likelihood
+
+https://ieeexplore.ieee.org/document/9357079
+
 # Paper abstract
 
 Current approaches involve deep learning in solving an **image inpainting** task. We propose a **meta-algorithm** in which we can set a **probabilistic distribution** on images. The set distribution can be a **classic** one, e.g. **Normal** distribution, or a **modern** one, e.g. **PixelCNN++**. Our **first observation** is relatively unexpected: if a learnt distribution **generates** reasonable images, then this does not make it a good candidate for **inpainting** via our proposed algorithm and vice-versa (if a learnt distribution gives reasonable results on image inpainting via our algorithm, then this does not make this a good candidate for sampling a new image). Our **second observation** is that although the visual results of the state-of-the-art method are superior to ours, the training time for our method is lower. Hence, one can experiment faster with our method to see, for example, if the desired inpainting is learnable. Moreover, using a specific distribution, our algorithm **can be trained also on high-quality RGB images, like 1024 times 1024 pixels**. As for the experiments, we included visual results and some quantitative comparisons.
